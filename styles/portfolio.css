@@ -125,3 +125,49 @@ padding: 30px;
     color: #757575;
 }
 /* Resume styles */
+.resume-content{
+ display: flex;
+ gap: 24px;
+ margin-bottom: 30px;
+}
+.resume.title{
+    display: flex;
+font-weight: 700;
+font-size: 25px;
+color: #474747;
+margin-bottom: 10px;
+
+}
+.resume.sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.resume.description{
+    color: #757575;
+    
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+/* contact styles */
+.contact.section-title{
+    text-align: left;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact,input[type="text"],input[type="Email"] textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contact a{
+    text-decoration: none;
+}
